@@ -73,5 +73,4 @@ Cypress.Commands.add('fillSignupForm', user=> {
     cy.get('.success')
     .should('be.visible')
     .and('contain.text','Mensagem enviada com sucesso.')
-
 })
