@@ -16,18 +16,22 @@ Run `npm install` (or `npm i` for the short version) to install the dev dependen
 
 ## Tests
 
-> **Note:** Before running the tests, make a copy of the `cypress.env.example.json` file as `cypress.env.json`, which in the real world, you would update with valid credentials.
->
-> The `cypress.env.json` file is included on [`.gitignore`](./.gitignore) and you're safe that confidential info won't be versioned.
+In this project, you can run tests on desktop or mobile viewport.
 
-Run `npm test` (or `npm t` for the short version) to run the test in headless mode.
+## Desktop
+
+Run `npm test` (or `npm t` for the short version) to run the test in headless mode on a desktop viewport
 
 Or, run `npm run cy:open` to open Cypress in interactive mode.
+
+## Mobile
+
+Run `npm run test:mobile` to run the test in headless mode in a mobile viewport.
+Or,  run `npm run cy:open:mobile` to open the Cypress App on a mobile viewport
 
 ## Support this project
 
 If you want to support this project, leave a ⭐.
-
 ___
 
 This project was created with 💚 by [Walmyr](https://walmyr.dev).
